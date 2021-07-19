@@ -22,6 +22,8 @@ wire        rst_n_i;
 
 reg  [31:0] alu_rd_o;
 
+wire clk_i;
+
 always@(posedge clk_i) begin
     if(!rst_n_i)
         alu_rd_o <= 31'd0;
