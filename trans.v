@@ -8,3 +8,4 @@ module TRANS(
 )
 
 wire clk_i;
+wire rst_n_i;
