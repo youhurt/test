@@ -6,3 +6,5 @@ module TRANS(
     clk_i,
     rst_n_i
 )
+
+wire clk_i;
